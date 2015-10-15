@@ -1,0 +1,77 @@
+html {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+body {
+  background: linear-gradient(-15deg, mediumseagreen, deepskyblue);
+  color: white;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  min-height: 400px;
+  text-align: center;
+  min-width: 500px;
+}
+
+main {
+  background-color: rgba(255, 255, 255, 0.33);
+  border-radius: 15px;
+  box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.2);
+  padding: 70px;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 300;
+  line-height: 1em;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+span {
+  display: block;
+  font-size: 2em;
+  font-weight: 200;
+  margin-bottom: 60px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  display: block;
+  height: 60px;
+  text-indent: -10000px;
+  transition: 0.1s ease-in;
+  width: 60px;
+}
+
+a:hover {
+  transform: translateY(-5px);
+  opacity: 1;
+  transition: 0.1s ease-in;
+}
+
+#github {
+  background: url("../images/github.png") 0 0 no-repeat;
+  background-size: cover;
+  margin-right: 60px;
+}
+#linkedin {
+  background: url("../images/linkedin.png") 0 0 no-repeat;
+  background-size: cover;
+  margin-right: 60px;
+}
+
+#twitter {
+  background: url("../images/twitter.png") 0 0 no-repeat;
+  background-size: cover;
+}
