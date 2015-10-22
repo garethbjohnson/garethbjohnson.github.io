@@ -26,18 +26,19 @@ main {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 48px;
   font-weight: 300;
   line-height: 1em;
-  margin-bottom: 30px;
+  margin-bottom: 36px;
   margin-top: 0;
 }
 
 span {
   display: block;
-  font-size: 2em;
+  font-size: 32px;
   font-weight: 200;
-  margin-bottom: 60px;
+  line-height: 1em;
+  margin-bottom: 64px;
 }
 
 ul {
@@ -69,6 +70,7 @@ a:hover {
   background-size: cover;
   margin-right: 60px;
 }
+
 #linkedin {
   background: url("../images/linkedin.png") 0 0 no-repeat;
   background-size: cover;
