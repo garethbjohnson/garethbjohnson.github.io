@@ -74,12 +74,6 @@ a:hover {
 #linkedin {
   background: url("../images/linkedin.png") 0 0 no-repeat;
   background-size: cover;
-  margin-right: 60px;
-}
-
-#twitter {
-  background: url("../images/twitter.png") 0 0 no-repeat;
-  background-size: cover;
 }
 
 @media (max-width: 559px) {
@@ -113,8 +107,7 @@ a:hover {
     transform: none;
   }
 
-  #github,
-  #linkedin {
+  #github {
     margin-right: 38px;
   }
 
