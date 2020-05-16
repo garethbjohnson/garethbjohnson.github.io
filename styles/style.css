@@ -68,12 +68,6 @@ a:hover {
 #github {
   background: url("../images/github.png") 0 0 no-repeat;
   background-size: cover;
-  margin-right: 60px;
-}
-
-#linkedin {
-  background: url("../images/linkedin.png") 0 0 no-repeat;
-  background-size: cover;
 }
 
 @media (max-width: 559px) {
@@ -105,10 +99,6 @@ a:hover {
 
   a:hover {
     transform: none;
-  }
-
-  #github {
-    margin-right: 38px;
   }
 
 }
